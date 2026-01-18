@@ -26,10 +26,3 @@ public:
     }
 };
 // @lc code=end
-int main(){
-    Solution s;
-    vector<int> tests = {123,-123,120,0,1534236469,-2147483648};
-    for(auto t:tests){
-        cout << s.reverse(t) << endl;
-    }
-}
